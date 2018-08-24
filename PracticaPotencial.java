@@ -2,7 +2,9 @@
 
     public static void main(String[] args) {
         System.out.println(Numero_elevado(5,2));
-        System.out.println(Numero_elevado_cubo(5,2));
+        System.out.println(Raiz(40));
+        System.out.println(Numero_elevado_cubo(5));
+        System.out.println(Raiz(60));
     }
 
     public static int Numero_elevado(int x, int z) {
@@ -37,6 +39,14 @@ return resultado ; }
             resultado = resultado * x;
 
         }
+        
+        
+        
+        public static int RaizCubica (int numeroUno) {
+int resultado = (int )Math.cbrt(numeroUno) ;
+return resultado ; }
+        
+        
 
         return resultado;
 
