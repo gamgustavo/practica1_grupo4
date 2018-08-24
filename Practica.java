@@ -11,4 +11,22 @@ public class Practica {
         }
         return resultado;
     }
+    
+    
+    
+    double Multiplica(double var1,double var2)
+	{
+		double multi;
+		multi=var1*var2;
+		return multi;
+	}
+
+	double Divide(double var1,double var2)
+	{
+		double div;
+		div=var1/var2;
+		return div;
+	}
+    
+    
 }
