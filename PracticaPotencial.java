@@ -17,4 +17,10 @@
         return resultado;
 
     }
+        
+        
+        
+        public static int Raiz (int numeroUno) {
+int resultado = (int )Math.sqrt(numeroUno) ;
+return resultado ; }
 }
