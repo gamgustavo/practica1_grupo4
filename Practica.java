@@ -23,9 +23,16 @@ public class Practica {
 
 	double Divide(double var1,double var2)
 	{
+		
+		if(var2!=0){
 		double div;
 		div=var1/var2;
 		return div;
+		}else{
+		return 0;
+		}		
+		
+		
 	}
     
     
